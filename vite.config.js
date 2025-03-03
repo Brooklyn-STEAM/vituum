@@ -1,11 +1,11 @@
 import vituum from 'vituum'
-import liquid from '@vituum/vite-plugin-liquid'
+import posthtml from '@vituum/vite-plugin-posthtml'
 
 /** @type {import('vite').UserConfig} */
 export default {
     plugins: [
         vituum(),
-        liquid({
+        posthtml({
             root: './src'
         })
     ]
