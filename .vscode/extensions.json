@@ -1,6 +1,6 @@
 {
     "recommendations": [
-        "sissel.shopify-liquid",
-        "kingleo.openurl"
+        "kingleo.openurl",
+        "bradlc.vscode-tailwindcss"
     ]
 }
