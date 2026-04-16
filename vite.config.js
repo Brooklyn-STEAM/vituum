@@ -6,7 +6,7 @@ import tailwindcss from '@tailwindcss/vite'
 export default {
     plugins: [
         vituum(),
-        posthtml(),
+        posthtml({root: './src'}),
         tailwindcss()
     ]
 }
